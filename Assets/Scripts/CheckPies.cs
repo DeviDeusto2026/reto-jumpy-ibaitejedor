@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CheckPies : MonoBehaviour
 {
-    public Collider cuerpoDelZorro; // Arrastra aquí el CapsuleCollider/BoxCollider principal del zorro
+    public Collider cuerpoDelZorro; 
 
     // Cuando los pies entran en la zona de la plataforma
     private void OnTriggerEnter(Collider other)

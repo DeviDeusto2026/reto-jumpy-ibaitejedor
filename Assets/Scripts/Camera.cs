@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class Camera : MonoBehaviour
 {
-    public Transform zorro;           // Arrastra al zorro/lobo aquí
+    public Transform zorro;           
     public float suavizado = 5f;     // Velocidad de seguimiento
     private float alturaMaxima = 0f; // Registro de lo más alto que ha llegado la cámara
     private Vector3 offset;          // Distancia inicial

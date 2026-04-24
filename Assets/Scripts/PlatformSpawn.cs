@@ -3,8 +3,8 @@ using UnityEngine;
 public class PlatformSpawn : MonoBehaviour
 {
     public GameObject plataformaPrefab;
-    public Transform plataformaInicial; // Arrastra aquí la plataforma que pusiste a mano
-    public int cantidadNuevas = 6;
+    public Transform plataformaInicial; 
+    public int cantidadNuevas = 5;
     public float distancia = 3f;
     public float amplitud = 2f;
 

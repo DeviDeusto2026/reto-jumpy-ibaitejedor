@@ -19,7 +19,7 @@ public class PassPlatform : MonoBehaviour
             // Si la parte de arriba del zorro es más baja que la plataforma...
             if (zorro.transform.position.y < transform.position.y)
             {
-                // ...hacemos que la plataforma sea un fantasma (Trigger)
+                // ...hacemos que la plataforma sea un fantasma 
                 colisionadorPlataforma.isTrigger = true;
             }
             else
